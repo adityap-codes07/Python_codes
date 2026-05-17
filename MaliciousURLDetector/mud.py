@@ -16,7 +16,6 @@ Improvements over original:
 from __future__ import annotations
 
 import csv
-import hashlib
 import json
 import logging
 import math
@@ -703,7 +702,3 @@ def main():
 
     # --- GUI (default) ---
     run_gui(train_csv=args.train_csv, model_path=args.model, test_csv=args.test_csv)
-
-
-if __name__ == "__main__":
-    main()

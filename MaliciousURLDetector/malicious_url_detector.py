@@ -4,7 +4,6 @@ import os
 import re
 import csv
 import json
-import sys
 import argparse
 import urllib.request
 from urllib.parse import urlparse
