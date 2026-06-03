@@ -1,11 +1,11 @@
 class Demo:
     def add(self, a, b, c = 0):
-        print ("Summ: ", a + b + c)
+        print ("Sum: ", a + b + c)
 class Parent:
     def show(self):
         print("This is a Parent class ")
 class Child(Parent):
-    def show(self,):
+    def show(self):
         print("This is a Child class ")
 d = Demo()
 d.add(3, 5)
